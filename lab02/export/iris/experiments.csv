@@ -1,0 +1,25 @@
+﻿id,dataset,split,train_ratio,test_ratio,random_state,model,k,metric,metric_label,preprocessing,preprocessing_label,accuracy
+EXP001,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,1,manhattan,Manhattan,none,Original,0.98
+EXP002,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,1,euclidean,Euclidean,none,Original,0.98
+EXP003,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,2,manhattan,Manhattan,none,Original,0.96
+EXP004,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,2,euclidean,Euclidean,none,Original,0.98
+EXP005,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,4,manhattan,Manhattan,none,Original,0.98
+EXP006,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,4,euclidean,Euclidean,none,Original,0.98
+EXP007,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,6,manhattan,Manhattan,none,Original,0.98
+EXP008,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,6,euclidean,Euclidean,none,Original,0.98
+EXP009,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,8,manhattan,Manhattan,none,Original,0.96
+EXP010,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,8,euclidean,Euclidean,none,Original,0.98
+EXP011,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,10,manhattan,Manhattan,none,Original,0.96
+EXP012,Iris,2/3 - 1/3,0.6666666666666666,0.3333333333333333,42,KNN,10,euclidean,Euclidean,none,Original,0.98
+EXP013,Iris,80% - 20%,0.8,0.2,42,KNN,1,manhattan,Manhattan,none,Original,1.0
+EXP014,Iris,80% - 20%,0.8,0.2,42,KNN,1,euclidean,Euclidean,none,Original,1.0
+EXP015,Iris,80% - 20%,0.8,0.2,42,KNN,2,manhattan,Manhattan,none,Original,1.0
+EXP016,Iris,80% - 20%,0.8,0.2,42,KNN,2,euclidean,Euclidean,none,Original,1.0
+EXP017,Iris,80% - 20%,0.8,0.2,42,KNN,4,manhattan,Manhattan,none,Original,1.0
+EXP018,Iris,80% - 20%,0.8,0.2,42,KNN,4,euclidean,Euclidean,none,Original,1.0
+EXP019,Iris,80% - 20%,0.8,0.2,42,KNN,6,manhattan,Manhattan,none,Original,1.0
+EXP020,Iris,80% - 20%,0.8,0.2,42,KNN,6,euclidean,Euclidean,none,Original,1.0
+EXP021,Iris,80% - 20%,0.8,0.2,42,KNN,8,manhattan,Manhattan,none,Original,0.9666666666666667
+EXP022,Iris,80% - 20%,0.8,0.2,42,KNN,8,euclidean,Euclidean,none,Original,1.0
+EXP023,Iris,80% - 20%,0.8,0.2,42,KNN,10,manhattan,Manhattan,none,Original,0.9666666666666667
+EXP024,Iris,80% - 20%,0.8,0.2,42,KNN,10,euclidean,Euclidean,none,Original,1.0

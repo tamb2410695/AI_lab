@@ -1,0 +1,3 @@
+﻿id,dataset,split,train_ratio,test_ratio,random_state,model,k,metric,metric_label,preprocessing,preprocessing_label,accuracy
+EXP001,Wine Red,4/5 - 1/5,0.8,0.2,42,KNN,9,euclidean,Euclidean,none,Before Scaling,0.478125
+EXP002,Wine Red,4/5 - 1/5,0.8,0.2,42,KNN,9,euclidean,Euclidean,standard,After Scaling,0.559375

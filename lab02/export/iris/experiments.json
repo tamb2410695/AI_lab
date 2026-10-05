@@ -1,0 +1,1562 @@
+[
+    {
+        "id": "EXP001",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 1,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP002",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 1,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP003",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 2,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.96,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    14
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP004",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 2,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP005",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 4,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP006",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 4,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP007",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 6,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP008",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 6,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP009",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 8,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.96,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    14
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP010",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 8,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP011",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 10,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.96,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    14
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP012",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.6666666666666666,
+                "test_ratio": 0.3333333333333333,
+                "label": "2/3 - 1/3",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 10,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.98,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    19,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    15,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    15
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP013",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 1,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP014",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 1,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP015",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 2,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP016",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 2,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP017",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 4,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP018",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 4,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP019",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 6,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP020",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 6,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP021",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 8,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.9666666666666667,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    10
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP022",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 8,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP023",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 10,
+                "metric": "manhattan",
+                "metric_label": "Manhattan"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.9666666666666667,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    1,
+                    10
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    },
+    {
+        "id": "EXP024",
+        "metadata": {
+            "dataset": {
+                "name": "Iris",
+                "n_samples": 150,
+                "n_features": 4,
+                "n_classes": 3,
+                "classes": [
+                    "Iris-setosa",
+                    "Iris-versicolor",
+                    "Iris-virginica"
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 10,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Original"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 1.0,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    10,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    9,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    11
+                ]
+            ],
+            "preview": {
+                "count": 0,
+                "accuracy": null,
+                "predictions": []
+            }
+        }
+    }
+]

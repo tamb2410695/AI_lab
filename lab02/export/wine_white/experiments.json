@@ -1,0 +1,334 @@
+[
+    {
+        "id": "EXP001",
+        "metadata": {
+            "dataset": {
+                "name": "Wine White",
+                "n_samples": 4898,
+                "n_features": 11,
+                "n_classes": 7,
+                "classes": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 7,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "none",
+                "label": "Before Scaling"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.45510204081632655,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    0,
+                    0,
+                    3,
+                    1,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    12,
+                    8,
+                    1,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    4,
+                    137,
+                    128,
+                    20,
+                    2,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    127,
+                    257,
+                    41,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    34,
+                    110,
+                    44,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    3,
+                    21,
+                    7,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "preview": {
+                "count": 8,
+                "accuracy": 0.125,
+                "predictions": [
+                    {
+                        "index": 0,
+                        "actual": 7,
+                        "predicted": 5,
+                        "correct": false
+                    },
+                    {
+                        "index": 1,
+                        "actual": 8,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 2,
+                        "actual": 8,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 3,
+                        "actual": 5,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 4,
+                        "actual": 7,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 5,
+                        "actual": 6,
+                        "predicted": 5,
+                        "correct": false
+                    },
+                    {
+                        "index": 6,
+                        "actual": 5,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 7,
+                        "actual": 4,
+                        "predicted": 4,
+                        "correct": true
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "id": "EXP002",
+        "metadata": {
+            "dataset": {
+                "name": "Wine White",
+                "n_samples": 4898,
+                "n_features": 11,
+                "n_classes": 7,
+                "classes": [
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            },
+            "split": {
+                "method": "holdout",
+                "train_ratio": 0.8,
+                "test_ratio": 0.2,
+                "label": "80% - 20%",
+                "random_state": 42
+            },
+            "model": {
+                "name": "KNN",
+                "k": 7,
+                "metric": "euclidean",
+                "metric_label": "Euclidean"
+            },
+            "preprocessing": {
+                "name": "minmax",
+                "label": "After Scaling"
+            },
+            "task": "classifier"
+        },
+        "result": {
+            "accuracy": 0.55,
+            "mae": null,
+            "mse": null,
+            "rmse": null,
+            "r2": null
+        },
+        "evaluation": {
+            "confusion_matrix": [
+                [
+                    1,
+                    0,
+                    1,
+                    3,
+                    0,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    3,
+                    12,
+                    8,
+                    2,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    6,
+                    169,
+                    103,
+                    13,
+                    0,
+                    0
+                ],
+                [
+                    0,
+                    2,
+                    111,
+                    273,
+                    45,
+                    1,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    14,
+                    83,
+                    89,
+                    6,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    3,
+                    15,
+                    13,
+                    4,
+                    0
+                ],
+                [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "preview": {
+                "count": 8,
+                "accuracy": 0.5,
+                "predictions": [
+                    {
+                        "index": 0,
+                        "actual": 7,
+                        "predicted": 6,
+                        "correct": false
+                    },
+                    {
+                        "index": 1,
+                        "actual": 8,
+                        "predicted": 7,
+                        "correct": false
+                    },
+                    {
+                        "index": 2,
+                        "actual": 8,
+                        "predicted": 7,
+                        "correct": false
+                    },
+                    {
+                        "index": 3,
+                        "actual": 5,
+                        "predicted": 5,
+                        "correct": true
+                    },
+                    {
+                        "index": 4,
+                        "actual": 7,
+                        "predicted": 7,
+                        "correct": true
+                    },
+                    {
+                        "index": 5,
+                        "actual": 6,
+                        "predicted": 6,
+                        "correct": true
+                    },
+                    {
+                        "index": 6,
+                        "actual": 5,
+                        "predicted": 5,
+                        "correct": true
+                    },
+                    {
+                        "index": 7,
+                        "actual": 4,
+                        "predicted": 5,
+                        "correct": false
+                    }
+                ]
+            }
+        }
+    }
+]

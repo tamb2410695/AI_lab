@@ -1,0 +1,17 @@
+﻿id,dataset,split,model,k,metric,metric_label,preprocessing,preprocessing_label,preview_count,preview_accuracy,index,actual,predicted,correct
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,0,7,5,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,1,8,6,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,2,8,6,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,3,5,6,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,4,7,6,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,5,6,5,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,6,5,6,False
+EXP001,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,none,Before Scaling,8,0.125,7,4,4,True
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,0,7,6,False
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,1,8,7,False
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,2,8,7,False
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,3,5,5,True
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,4,7,7,True
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,5,6,6,True
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,6,5,5,True
+EXP002,Wine White,80% - 20%,KNN,7,euclidean,Euclidean,minmax,After Scaling,8,0.5,7,4,5,False

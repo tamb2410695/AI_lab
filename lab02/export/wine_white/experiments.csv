@@ -1,0 +1,3 @@
+﻿id,dataset,split,train_ratio,test_ratio,random_state,model,k,metric,metric_label,preprocessing,preprocessing_label,accuracy
+EXP001,Wine White,80% - 20%,0.8,0.2,42,KNN,7,euclidean,Euclidean,none,Before Scaling,0.45510204081632655
+EXP002,Wine White,80% - 20%,0.8,0.2,42,KNN,7,euclidean,Euclidean,minmax,After Scaling,0.55
